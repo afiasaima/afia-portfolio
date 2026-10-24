@@ -154,3 +154,48 @@ li::marker {
   color: white;
 }
 
+/* Navigation Bar */
+
+nav {
+  max-width: 850px;
+  margin: 0 auto 35px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: linear-gradient(
+    135deg,
+    #312e81cc,
+    #581c87cc
+  );
+  border: 1px solid #a78bfa66;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px #02061766;
+}
+
+nav a {
+  color: #f5f3ff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 9px 13px;
+  border-radius: 9px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #a78bfa;
+  color: #1e1b4b;
+  transform: translateY(-2px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 20px;
+}
+
