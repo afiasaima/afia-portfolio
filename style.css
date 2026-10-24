@@ -199,3 +199,35 @@ section {
   scroll-margin-top: 20px;
 }
 
+/* Glassmorphism Card Upgrade */
+
+body > section > p,
+body > section > ul {
+  background: linear-gradient(
+    135deg,
+    #ffffff0d,
+    #8b5cf61a
+  );
+  border: 1px solid #c4b5fd33;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px #02061755;
+  backdrop-filter: blur(12px);
+}
+
+body > section > h2 {
+  background: linear-gradient(
+    120deg,
+    #312e81,
+    #6d28d9
+  );
+  border: 1px solid #a78bfa55;
+  border-left: 4px solid #c4b5fd;
+  border-radius: 12px;
+}
+
+body > section > p:hover,
+body > section > ul:hover {
+  border-color: #a78bfa;
+  box-shadow: 0 14px 35px #7c3aed33;
+}
+
