@@ -230,4 +230,22 @@ body > section > ul:hover {
   border-color: #a78bfa;
   box-shadow: 0 14px 35px #7c3aed33;
 }
+/* Force the new glass card design */
 
+section > p,
+section > ul {
+background: rgba(139, 92, 246, 0.12) !important;
+border: 1px solid rgba(196, 181, 253, 0.4) !important;
+border-radius: 18px !important;
+padding: 20px !important;
+margin: 12px 0 20px !important;
+box-shadow: 0 12px 35px rgba(2, 6, 23, 0.35) !important;
+backdrop-filter: blur(12px);
+transition: 0.3s ease;
+}
+
+section > p:hover,
+section > ul:hover {
+border-color: #a78bfa !important;
+box-shadow: 0 14px 35px rgba(124, 58, 237, 0.3) !important;
+}
